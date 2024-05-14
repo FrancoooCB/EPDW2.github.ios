@@ -1,0 +1,194 @@
+#contenedor{
+    border: 1px solid green;
+    width: 75%;
+    margin: auto;
+    
+}
+#cabecera{
+    display: flex;
+    justify-content: space-evenly; 
+    /*border: 1px solid red;*/
+    background-color:rgb(34, 133, 226);
+}
+#logo{
+    display: flex;
+    position: relative;
+    top:10px;
+    left:20px;
+    /*border: 1px solid red;*/
+}
+#menuprincipal>ul{
+    display: flex;
+    /*border: 1px solid black;*/
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between; 
+    position: relative;
+    top: 30px;
+    right: 10px;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    
+}
+.a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    
+}
+#menuprincipal a:hover{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    transition: all 900ms ease-in-out;
+
+}
+#contenido{
+    /*border: 1px solid red;*/
+    margin: 1px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/fondoxd.jpg);
+}
+#caja1{
+    /*border: 1px solid red;*/
+    margin: 1px;
+    padding: 5px;
+    display: flex;   
+    
+}
+#caja2{
+    /*border: 1px solid red;*/
+    margin: 1px;
+    padding: 5px;
+    display: flex; 
+    flex-flow: row-reverse;   
+}
+#img1{
+    /*border: 1px solid red;*/
+    display: flex;
+    float: left;
+    width: 50%;
+    justify-content: space-around;
+    position: relative;
+    left: 170px;
+}
+#img2{
+    /*border: 1px solid red;*/
+    display: flex;
+    float: left;
+    width: 50%;
+    justify-content: space-around;
+    position: relative;
+    left: -150px;
+}
+#texto1{
+    /*border: 1px solid blue;*/
+    width: 50%;
+    
+}
+#a1{
+    /*border: 1px solid red;*/
+    display:  flex;
+    margin: 20px 0 0 ;
+    width: 100px;
+    /*box-shadow:0 0 10px rgb(194, 19, 6);*/
+    background-color: rgb(34, 133, 226);
+    position: relative;
+    top: 20px;
+    left: 100px;
+    border-radius: 15%;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}
+#a2{
+    /*border: 1px solid red;*/
+    display:  flex;
+    margin: 20px 0 0 ;
+    width: 100px;
+    /*box-shadow:0 0 10px rgb(194, 19, 6);*/
+    background-color: rgb(34, 133, 226);
+    position: relative;
+    top: 20px;
+    left: 100px;
+    border-radius: 15%;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+
+}
+#p1{
+    /*border: 1px solid red;*/
+    width: 50%; 
+    position:relative ;
+    left: 0px;
+}
+#p2{
+    /*border: 1px solid red;*/
+    width: 50%; 
+    position:relative ;
+    left: 350px;
+}
+#img2{
+    /*border: 1px solid red;*/
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    position: relative;
+    right: 200px;
+    
+}
+#texto2{
+   /*border: 1px solid blue;*/
+   width: 50%;
+   display: flex;
+   
+}
+#menu2{
+    display: flex;
+    padding: 10px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly; 
+    position: relative;
+    background-color:rgb(34, 133, 226);
+    
+}
+#pie{
+   /*border: 1px solid red;*/
+   height: 100px;
+   padding: 10px;
+}
+#fb{
+    /*border: 1px solid red;*/
+    display: flex;
+    position: relative;
+}
+#ig{
+    /*border: 1px solid red;*/
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+#txt{
+    /*border: 1px solid blue;*/
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+#lr{
+    display: flex;
+    /*border: 1px solid red;*/
+    justify-content: end;
+    position:relative;
+    bottom: 83px;
+    right: 12px;
+
+}
